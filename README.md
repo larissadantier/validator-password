@@ -49,7 +49,7 @@ Com isso, foi criado/usados alguns recursos:
 - Uso do Sass com o uso da metodologia Arquitetura CSS [BEM](https://desenvolvimentoparaweb.com/css/bem/).
 
 
-## Critérios de avaliação
+## Critérios da senha
 - [X] Senhas são números com 6 dígitos.
 - [X] A senha deve estar entre 184759-856920.
 - [X] Dois dígitos adjacentes devem ser iguais (como 22 em 122346).
@@ -69,11 +69,11 @@ Com isso, foi criado/usados alguns recursos:
 - [X] O projeto deve conter testes unitários. Você pode escolher o framework para desenvolvê-los de sua preferência
 
 - [X] O projeto deve usar TypeScript ou ECMA 6+
+
 ## Adicionais
 
 - [X] A página ser responsiva. Sua aparência é diferente numa resolução de celular.
 - [X] Uso de pré-processador de CSS ou CSS Funcional.
-- [ ] Testes End to End.
 - [X] Funcionamento e apresentação geral da UI/UX
 
 ## 😎 Iniciando 
