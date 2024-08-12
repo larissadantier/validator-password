@@ -1,0 +1,17 @@
+.home {
+  &__container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.5rem;
+
+    @media (max-width: 480px) {
+      display: flex;
+      align-items: start;
+    }
+  }
+}

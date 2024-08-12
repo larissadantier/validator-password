@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component Field > should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="_field__container_cac991"
+    data-testid="field"
+  >
+    <label
+      data-testid="field__label"
+    >
+      Nome
+    </label>
+    <input
+      autocomplete="off"
+      class="_field__input_cac991"
+      data-testid="field__input"
+      placeholder="Escreva o seu nome"
+    />
+    <span
+      class="_field__warn_cac991"
+      data-testid="field__warn"
+    >
+      Preencha o campo de nome
+    </span>
+  </div>
+</DocumentFragment>
+`;

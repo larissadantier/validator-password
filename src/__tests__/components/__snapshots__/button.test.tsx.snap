@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component Button > should match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="_button__container_f6b8e0 undefined"
+    data-testid="button"
+  >
+    <span
+      class="_button__text_f6b8e0"
+    >
+      Send
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Component Button > should match snapshot of disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="_button__container_f6b8e0 undefined"
+    data-testid="button"
+    disabled=""
+  >
+    <span
+      class="_button__text_f6b8e0"
+    >
+      Send
+    </span>
+  </button>
+</DocumentFragment>
+`;

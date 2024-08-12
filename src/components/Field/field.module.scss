@@ -1,0 +1,33 @@
+.field {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    font-size: 1rem;
+  }
+
+  &__warn {
+    display: block;
+    color: var(--error);
+    font-size: 14px;
+  }
+
+  &__input {
+    border: 1px solid var(--gray-primary);
+    border-radius: 5px;
+
+    padding: 0.5rem;
+
+    box-shadow: var(--box-shadow) 0px 2px 8px 0px;
+
+    &:focus-within {
+      border-color: var(--focus-blue);
+      box-shadow: var(--focus-blue-shadow) 0px 2px 8px 0px;
+    }
+
+    &::placeholder {
+      color: var(--gray-secondary);
+    }
+  }
+}
